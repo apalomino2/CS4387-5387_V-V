@@ -159,7 +159,6 @@ public class SplitTest {
 		assertEquals(expected, output);
 	}
 
-
 // Test 24:
 //	Actual: \b
 //	Expected: "\b"

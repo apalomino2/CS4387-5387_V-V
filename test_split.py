@@ -145,27 +145,7 @@ class TestSplit(unittest.TestCase):
     Expected: Exception TypeError
     Size: 1
 
-    def test_24(self):
-        expected =
-        actual =
-        self.assertListEqual(expected, actual)
-
-    def test_25(self):
-        expected =
-        actual =
-        self.assertListEqual(expected, actual)
-
-    def test_26(self):
-        expected =
-        actual =
-        self.assertListEqual(expected, actual)
-
-    def test_27(self):
-        expected =
-        actual =
-        self.assertListEqual(expected, actual)
-
-    def test_28(self):
+    def test_extra(self):
         expected =
         actual =
         self.assertListEqual(expected, actual)
