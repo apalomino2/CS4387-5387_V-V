@@ -17,7 +17,7 @@ class TestSplit(unittest.TestCase):
     def test_2(self):
         with self.assertRaises(TypeError):
             actual = split(None, 2)
-            
+
     def test_3(self):
         expected = ["cs rocks"]
         actual = split("cs rocks", 8)
@@ -120,39 +120,54 @@ class TestSplit(unittest.TestCase):
             actual = split("cs", -2147483648)
 
 """
+    Test 24:
+    Actual: \b
+    Expected: "\b"
+    Size: 1
+
+    Test 25:
+    Actual: /**
+    Expected: "/**"
+    Size: 1
+
+    Test 26:
+    Actual: **/
+    Expected: "**/"
+    Size: 1
+
+    Test 27:
+    Actual: String
+    Excpected: Exceptoin TypeError
+    Size: String
+
+    Test 28:
+    Actual: (Int Value)
+    Expected: Exception TypeError
+    Size: 1
+
     def test_24(self):
-        expected = 
-        actual = 
+        expected =
+        actual =
         self.assertListEqual(expected, actual)
 
     def test_25(self):
-        expected = 
-        actual = 
+        expected =
+        actual =
         self.assertListEqual(expected, actual)
 
     def test_26(self):
-        expected = 
-        actual = 
+        expected =
+        actual =
         self.assertListEqual(expected, actual)
 
     def test_27(self):
-        expected = 
-        actual = 
+        expected =
+        actual =
         self.assertListEqual(expected, actual)
 
     def test_28(self):
-        expected = 
-        actual = 
-        self.assertListEqual(expected, actual)
-
-    def test_29(self):
-        expected = 
-        actual = 
-        self.assertListEqual(expected, actual)
-
-    def test_30(self):
-        expected = 
-        actual = 
+        expected =
+        actual =
         self.assertListEqual(expected, actual)
 """
 
