@@ -23,7 +23,7 @@ class TestSplit(unittest.TestCase):
         """
         with self.assertRaises(TypeError):
             actual = split(None, 2)
-            
+
     def test_3(self):
         """
         @Test how the method functions when given a string and a size 
@@ -202,39 +202,34 @@ class TestSplit(unittest.TestCase):
             actual = split("cs", -2147483648)
 
 """
-    def test_24(self):
-        expected = 
-        actual = 
-        self.assertListEqual(expected, actual)
+    Test 24:
+    Actual: \b
+    Expected: "\b"
+    Size: 1
 
-    def test_25(self):
-        expected = 
-        actual = 
-        self.assertListEqual(expected, actual)
+    Test 25:
+    Actual: /**
+    Expected: "/**"
+    Size: 1
 
-    def test_26(self):
-        expected = 
-        actual = 
-        self.assertListEqual(expected, actual)
+    Test 26:
+    Actual: **/
+    Expected: "**/"
+    Size: 1
 
-    def test_27(self):
-        expected = 
-        actual = 
-        self.assertListEqual(expected, actual)
+    Test 27:
+    Actual: String
+    Excpected: Exceptoin TypeError
+    Size: String
 
-    def test_28(self):
-        expected = 
-        actual = 
-        self.assertListEqual(expected, actual)
+    Test 28:
+    Actual: (Int Value)
+    Expected: Exception TypeError
+    Size: 1
 
-    def test_29(self):
-        expected = 
-        actual = 
-        self.assertListEqual(expected, actual)
-
-    def test_30(self):
-        expected = 
-        actual = 
+    def test_extra(self):
+        expected =
+        actual =
         self.assertListEqual(expected, actual)
 """
 

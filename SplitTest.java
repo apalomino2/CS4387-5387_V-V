@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 import org.junit.jupiter.api.Test;
 /**
- * 
+ *
  * @author Marco Munoz
  * @version 1.0
  */
@@ -159,27 +159,33 @@ public class SplitTest {
 		assertEquals(expected, output);
 	}
 
-	public void test24() {
+// Test 24:
+//	Actual: \b
+//	Expected: "\b"
+//	Size: 1
 
-	}
-	public void test25() {
+// Test 25:
+//	Actual: /**
+//	Expected: "/**"
+//	Size: 1
 
-	}
-	public void test26() {
+// Test 26:
+//	Actual: **/
+//	Expected: "**/"
+//	Size: 1
 
-	}
-	public void test27() {
+// Test 27:
+//	Actual: String
+//	Excpected: Exceptoin TypeError
+//	Size: String
 
-	}
-	public void test28() {
+// Test 28:
+//	Actual: (Int Value)
+//	Expected: Exception TypeError
+//	Size: 1
 
-	}
-	public void test29() {
+//	public void testExtra() {
 
-	}
-	public void test30() {
-
-	}
-
+//	}
 
 }
