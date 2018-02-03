@@ -116,9 +116,8 @@ class TestSplit(unittest.TestCase):
         self.assertListEqual(expected, actual)
 
     def test_23(self):
-        expected = ["cs"]
-        actual = split("cs", -2147483648)
-        self.assertListEqual(expected, actual)
+        with self.assertRaises(ValueError):
+            actual = split("cs", -2147483648)
 
 """
     def test_24(self):
